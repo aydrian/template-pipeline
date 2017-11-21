@@ -1,0 +1,22 @@
+{
+  "name": "template-pipeline",
+  "version": "0.0.1",
+  "description": "Publish HEML templates to template store",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/aydrian/template-pipeline.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Aydrian Howard <aydrian@gmail.com> (http://aydrian.me)",
+  "license": "MIT",
+  "dependencies": {
+    "gray-matter": "^3.1.1",
+    "heml": "^1.0.2-0",
+    "sparkpost": "^2.1.2"
+  }
+}
